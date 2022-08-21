@@ -29,9 +29,9 @@ def alarm_sound():
     """plays the alarm sound if possible"""
     print('ALERT!!')
     try:
-        playsound('./audio/alarmhome.mp3')
+        playsound(AUDIO_FILE_PATH)
     except Exception as e:
-        print("NO ALARM SOUND IS SET. make sure a file named audio/alarmhome.mp3 exists")
+        print("NO ALARM SOUND IS SET. make sure a file named ", AUDIO_FILE_PATH, " exists")
         print(e)
 
 
@@ -98,6 +98,7 @@ def load_tokens(token_list_filename):
 
 
 if __name__ == '__main__':
+    AUDIO_FILE_PATH = './audio/alarmsound.mp3'
     token_names = load_tokens('token_config.txt')
     print("started")
     run()
