@@ -1,5 +1,5 @@
 # Smart Home Security
-Smart home alarm. Using computerc vision to distinguish between humans to other moving object, which makes it usefull for outside enviroment. Once a person is seen, the alarm starts and a push notification is sent to the phone via PushBullet
+Smart home alarm. Using computer vision to distinguish between humans to other moving object, which makes it usefull for outside enviroment. Once a person is seen, the alarm starts and a push notification is sent to the phone via PushBullet
 
 ## Libraries:
 ```
